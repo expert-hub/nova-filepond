@@ -1,6 +1,6 @@
 {
-    "name": "digital-creative/nova-filepond",
-    "description": "A Nova field for uploading File, Image and Video using filepond.",
+    "name": "expert-hub/nova-filepond",
+    "description": "A Nova field for uploading File, Image and Video using filepond, for nova 5, cloned from digital-creative/nova-filepond.",
     "keywords": [
         "file",
         "upload",
