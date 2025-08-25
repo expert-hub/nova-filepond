@@ -23,6 +23,10 @@ class Data
 
     public static function fromEncrypted(string $serverId): static
     {
+        $pos = strpos($serverId, '<'); // beginning of injected HTML
+        if ($pos !== false) {
+            $serverId = substr($serverId, 0, $pos);
+        }
         return decrypt($serverId);
     }
 
